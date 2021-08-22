@@ -3,4 +3,5 @@ git:
   depth: 1
   
 script: 
+- export REPO_TOKEN=${REPO_TOKEN}
 - sh ./scripts/genc.sh

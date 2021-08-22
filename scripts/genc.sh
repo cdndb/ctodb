@@ -1,6 +1,6 @@
 
 git remote remove origin
-git remote add origin "https://cdndb:${REPO_TOKEN}@github.com/cdndb/cto.git"
+git remote add origin "https://cdndb:${REPO_TOKEN}@github.com/cdndb/ctodb.git"
 git fetch origin cache
 git pull origin master
 
